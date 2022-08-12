@@ -1,0 +1,398 @@
+
+/* Valores generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+img {
+
+    width: 100%;
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 3.5em;
+    font-family:'Neucha', cursive; 
+    Color: #837e68 ;
+    
+}
+
+/*main {
+
+   
+    max-width: 1200px; } */
+
+
+
+/* BANNER HEADER */
+
+header {
+    
+    background-image: url(../IMG/1580x500.jpg) ; 
+
+    height: 500px;
+    width: 100%;
+    
+
+   
+
+}
+
+.divNav {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+
+}
+
+.navHeader {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+    
+    
+   
+}
+
+.menuNav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-left:  23rem;
+
+    padding: 2rem;
+    
+    list-style: none;
+   
+
+
+}
+
+
+.menu__item {
+
+    font-size: 1.5em;
+    margin: 0 40px;
+    
+
+   
+}
+
+
+.menu__item>.menu__link {
+    
+    
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Jaldi', sans-serif ;
+    Color: #7f2855 ;
+    transform:skewY(20deg); 
+   
+    
+  
+
+}
+
+.navHeader .menu__item>.menu__link {
+    transition: all .3s linear;
+    padding: 3rem 1rem ;
+    
+    
+}
+
+.navHeader .menu__item>.menu__link:hover {
+    
+    
+    background-color: hsla(329, 52%, 33%, 0.467) ;
+    transform:skewY(20deg); 
+    
+    
+}
+
+/* REPLANTEO */
+
+.replanteo {
+
+
+    margin-right: 15rem; 
+    display: flex;
+    justify-content: flex-end;
+    font-size: 7em;
+    font-family: 'Neucha', cursive;
+    Color: #837e68 ;
+    margin-top: 15rem;
+    
+    
+    
+} 
+
+/* MAIN */
+
+/* PAGINA INICIO */
+
+.borderInicio {
+
+    margin-top: 5rem;
+    border-top: solid 1px #837e68  ;
+    border-bottom: solid 1px #837e68 ;
+
+}
+
+/* PAGINA REPLANTEO */
+
+/* Border Replanteo */
+
+.borderReplanteo {
+
+    border: solid 2px #837e68;
+    padding: 2%;
+    margin: 5rem;
+}
+
+.textoReplanteo {
+
+    
+    
+    font-size: 1.8em;
+
+    text-align: center;
+
+    font-family: 'Jaldi', sans-serif;
+
+
+}
+
+.textoReplanteo1 {
+
+    padding: 1%;
+}
+
+.textoReplanteo2 {
+
+    padding: 1%;
+}
+
+.textoReplanteo3 {
+
+    padding: 1%;
+}
+
+/* VALORES */
+
+
+.mayuscula {
+
+    font-size: 2em;
+}
+
+.valores {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 3em;
+    font-family: 'Neucha', cursive ;
+    color: #56566d;
+}
+
+
+
+.borderValores {
+
+    border-bottom: solid 1px #837e68 ;
+
+
+}
+
+
+
+/* INICIO */
+
+.textosInicio {
+
+    background-color: #e7eed9;
+    opacity: 0.5;
+    padding: 2%;
+    margin: 5rem;
+}
+
+.textoInicio {  
+
+    display: flex; 
+    
+    font-size: 1.8em;
+
+    text-align: justify;
+
+    font-family: 'Jaldi', sans-serif;
+
+    padding: 1%;
+
+ 
+
+}
+
+.textoInicio2 {
+
+    font-size: 1.8em;
+
+    text-align: justify;
+
+    font-family: 'Jaldi', sans-serif;
+
+    padding: 1%;
+
+
+}
+
+.bannerRedimensionado {
+ 
+   
+  margin-top: 5rem;
+  
+
+    
+} 
+
+/* NOSOTROS */
+
+/* CARDS COORDINADORES */
+
+.cardCoordinadores {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.boxCoordinadores {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.boxCoordinadores__title {
+text-align: center;
+margin-top: 2rem;
+font-family: 'Jaldi', sans-serif;
+font-size: 2.5em;
+color: #837e68;
+}
+
+.boxCoordinadores__subtitle {
+    text-align: center;
+    margin-top: 0.1rem ;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 2.2em;
+    color: #837e68;
+    }
+
+.boxCoordinadores__text {
+
+    color: #000000;
+}
+
+.boxCoordinadores__boton {
+
+    color: #7f2855;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* CARDS NUESTRO EQUIPO */
+
+.equipo {
+
+    margin-top: 4rem;
+}
+
+.cardEquipo {
+
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem 3.2rem ;
+    margin-top: 2em;
+    
+
+}
+
+.boxEquipo {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5em;
+}
+
+.boxEquipo__img {
+
+    width: 250px;
+    height: 200px;
+}
+
+.boxEquipo__title {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 2.5em;
+    color: #837e68;
+    padding: 2%;
+    }
+
+.boxEquipo__boton {
+
+    color: #7f2855;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+    
+
+
+/*FOOTER*/
+
+footer {
+    
+   
+    height: 100px;
+    background-color: #efe5e3 ;
+    font-size: 1.5em;
+    color: #837471;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+   
+
+}
