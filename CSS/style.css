@@ -43,6 +43,7 @@ header {
 
     height: 500px;
     width: 100%;
+    min-width: 1200px;
 
 
 
@@ -69,6 +70,7 @@ header {
     align-items: center;
 
     justify-content: space-between;
+    
 
 
 
@@ -82,11 +84,15 @@ header {
 
     align-items: center;
 
-    margin-left: 23rem;
+    margin-left: 50rem;
 
     padding: 2rem;
 
     list-style: none;
+    
+    
+
+   
 
 
 
@@ -96,7 +102,12 @@ header {
 .menu__item {
 
     font-size: 1.5em;
-    margin: 0 40px;
+    margin: 0 10px; 
+   transform: skew(-16deg);
+    
+   
+    
+   
 
 
 
@@ -110,7 +121,10 @@ header {
     font-size: 1.5em;
     font-family: 'Jaldi', sans-serif;
     Color: #7f2855;
-    transform: skewY(20deg);
+    
+    
+    
+   
 
 
 
@@ -119,19 +133,33 @@ header {
 
 .navHeader .menu__item>.menu__link {
     transition: all .3s linear;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem; 
 
 
 }
+
+
+
 
 .navHeader .menu__item>.menu__link:hover {
 
 
     background-color: hsla(329, 52%, 33%, 0.467);
-    transform: skewY(20deg);
+ 
 
 
 }
+
+/*.navHeader .menu__item>.menu__link:any-link {
+
+    background-color: hsla(329, 52%, 33%, 0.467);
+
+
+} */
+
+
+
+
 
 /* REPLANTEO */
 
