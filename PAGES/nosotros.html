@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/fontello.css">
     <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <title>Nosotros</title>
@@ -14,31 +15,38 @@
 
 <body>
 
-  <!-- INICIO DEL HEADER -->
+      <!-- EMPIEZA EL HEADER -->
 
-<header class="header">
+<header>
+   
+   
+  <div class="contenedor">
 
-    <div class="divNav">
-    
-    
-    <nav class="navHeader">
+  <div class="divNav">
+
+  <nav class="navHeader">
+
+  <input type="checkbox" id="menuMobile"> 
+  <label class="icon-menu" for="menuMobile"></label>
 
 
-          <ul class="menuNav">
+    <ul class="menuNav">
 
-          <li class="menu__item"><a class="menu__link" href="../index.html">INICIO</a></li>
-          <li class="menu__item"><a class="menu__link" href="replanteo.html">REPLANTEO</a></li>
-          <li class="menu__item"><a class="menu__link" href="./nosotros.html">NOSOTROS</a></li>
-          <li class="menu__item"><a class="menu__link" href="./prestaciones.html">PRESTACIONES</a></li>
-          <li class="menu__item"><a class="menu__link" href="./contacto.html">CONTACTO</a></li>
-        </ul>
-      </nav>
+    <li class="menu__item"><a class="menu__link" href="../index.html">INICIO</a></li>
+    <li class="menu__item"><a class="menu__link" href="replanteo.html">REPLANTEO</a></li>
+    <li class="menu__item"><a class="menu__link" href="./nosotros.html">NOSOTROS</a></li>
+    <li class="menu__item"><a class="menu__link" href="./prestaciones.html">PRESTACIONES</a></li>
+    <li class="menu__item"><a class="menu__link" href="./contacto.html">CONTACTO</a></li>
+  </ul>
+</nav>
 
-    </div>
+</div>
 
-    <!-- REPLANTEO -->
+<!-- REPLANTEO -->
 
-      <p class="replanteo">REPLANTEO</p>
+<p class="replanteo">REPLANTEO</p>
+
+</div>
 </header>
 
 <!-- FIN DEL HEADER -->
@@ -200,7 +208,11 @@
 <!-- INICIO DEL FOOTER -->
 
 
-<footer> <p>2022 © REPLANTEO. TODOS LOS DERECHOS RESERVADOS </p></footer>
+<footer class="container-fluid"> 
+  
+  <p>2022 © REPLANTEO. TODOS LOS DERECHOS RESERVADOS </p>
+
+</footer>
 
 <!-- FIN DEL FOOTER -->
 
