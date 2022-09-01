@@ -28,6 +28,14 @@ h1 {
 
 }
 
+p {
+
+    font-size: 1.4em;
+    font-family: 'Jaldi', sans-serif;
+    color: #837471;
+
+}
+
 /*main {
 
    
@@ -41,6 +49,14 @@ h1 {
 
 
     }
+
+    /* SWEET ALERT */
+
+   /* .width-sweet {
+
+        width: 25rem !important;
+        height: 100%;
+    } */
 
 
 
@@ -69,19 +85,6 @@ header {
     }
 
 
-
-
-/*.divNav {
-
-    display: flex;
-
-    flex-direction: row;
-
-    justify-content: flex-start;
-
-    align-items: center;
-    
-} */
 
 .navHeader {
 
@@ -393,7 +396,23 @@ header label {
 
 /* NOSOTROS */
 
+/* Sweet Alert */
+
+.textoSweet {
+
+    text-align: justify;
+}
+
+.tituloCoordinadores {
+
+    font-size: 3em !important;
+    color: #837471;
+    font-family: 'Jaldi', sans-serif;
+}
+
 /* CARDS COORDINADORES */
+
+
 
 .cardCoordinadores {
 
