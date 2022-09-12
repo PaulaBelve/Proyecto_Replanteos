@@ -28,15 +28,14 @@ h1 {
 
 }
 
-p {
+/*p {
 
-    font-size: 1.4em;
-    font-family: 'Jaldi', sans-serif;
-    color: #837471;
+    font-size: 1.2em;
+    
 
-}
+} */
 
-/*main {
+/*main { 
 
    
     max-width: 1200px; } */
@@ -52,11 +51,16 @@ p {
 
     /* SWEET ALERT */
 
-   /* .width-sweet {
+    .textoSweet {
 
-        width: 25rem !important;
-        height: 100%;
-    } */
+        text-align: justify;
+        font-family: 'Jaldi', sans-serif;
+        color: #837471;
+        font-size: 1.4em;
+
+    }
+
+ 
 
 
 
@@ -398,11 +402,6 @@ header label {
 
 /* Sweet Alert */
 
-.textoSweet {
-
-    text-align: justify;
-}
-
 .tituloCoordinadores {
 
     font-size: 3em !important;
@@ -411,8 +410,6 @@ header label {
 }
 
 /* CARDS COORDINADORES */
-
-
 
 .cardCoordinadores {
 
@@ -508,12 +505,13 @@ header label {
     font-size: 1.5em;
 }
 
-.boxCoordinadores__boton {
+#boxCoordinadores__boton {
 
     color: #7f2855;
     font-family: 'Jaldi', sans-serif;
     font-size: 1.5em;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -576,8 +574,8 @@ header label {
 
 .boxEquipo__img {
 
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     margin: 6rem 0rem 6rem 0rem;
 }
 
@@ -682,8 +680,8 @@ header label {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
     /*  align-items: center; */
     margin-top: 4rem;
     font-size: 1.5rem;
@@ -709,6 +707,7 @@ header label {
 
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -735,8 +734,8 @@ header label {
   .boxPrestaciones .boxPrestaciones__img {
 
     box-shadow: 0 0 5px ;
-    width: 25%;
-    height: 25%;
+    width: 85%;
+    height: 85%;
     position: relative;
     
     
@@ -772,7 +771,7 @@ header label {
   background: hsl(10, 27%, 91%,0.8);
   text-align: justify;
   font-size: 1em;
-  padding: 2rem;
+  padding: 1rem;
   font-family: 'Jaldi', sans-serif;
   color: #7f2855;
   
