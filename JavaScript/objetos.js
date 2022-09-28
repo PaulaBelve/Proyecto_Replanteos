@@ -1,35 +1,28 @@
-// OBJETO BUDINES
+// Array Coordinadores
 
-// OBJETOS COORDINADORES
-
-class coordinadores {
-    constructor(id, nombre, profesión, frase, experiencia, imagen) {
+const coordinadores = [
+  { 
+      id: '1', 
+      nombre: 'Andrea Méndez', 
+      profesion: 'Andrea Méndez | Psicóloga', 
+      frase: 'La han formado los pacientes, algunos maestros, la salud pública en todos sus niveles, el estudio y la docencia. No concibe  otra formación que la que surge de que cada caso es diferente, y no están todas las respuestas ya escritas.', 
+      experiencia:' Andrea-coordinadora de este proyecto, es psicóloga, egresada de la Universidad Argentina John F. Kennedy. Ha trabajado desde hace más de 25 años  en consultorios externos y coordinando grupos y programas en: Centros de Salud de Atención Primaria, en el Hospital General y en la Guardia de Salud Mental, en Urgencias e Internación, lo cual le ha dado una amplia experiencia en el abordaje y manejo de todo tipo de complejidades de la clínica. También ejerce la profesión en el ámbito privado. Ha sido admisora y coordinadora de servicio en sistema de salud mental de pre pagas. Es miembro de AASAM, Asociación Argentina de Salud Mental, donde participa de los capítulos de Psicosis y Cuerpos Sexualidad y Época. Como docente universitaria, se ha desempeñado en Universidades públicas y privadas, en pasantías de  grado y posgrado: * Clínica de la Urgencia, de la carrera de Psicología de la Universidad de Buenos Aires * Clínica Psicoanalítica del posgrado del Colegio de Psicólogos zona XV. * Residencia de Medicina Gral., en el módulo de  Salud Mental. Aunque,  como docente, prefiere seguir pensándose como aprendiz. En este día y cada día. ', 
+      img:'../IMG/FotoAndrea.png', 
       
-      this.id = id, 
-      this.titulo = nombre, 
-      this.profesión = profesión,
-      this.frase = frase, 
-      this.experiencia = experiencia 
-      this.imagen = imagen
-        
-    }  
+  },
   
-   mostrarCoodinadores() {
-      console.log(`El nombre es ${this.nombre}, su profesión es ${this.profesión}, frase presentación ${this.frase}, la id es ${this.id}`);
-    
-    } }
+  { id: '2',   
+  nombre: 'Juan Pablo Tonna', 
+  profesion: 'Juan Pablo Tonna | Médico y psiquiatra', 
+  frase: 'Su amplio recorrido le ha dado una perspectiva integral poco frecuente del sistema de salud en sus diferentes instancias y niveles de atención así como una valoración del trabajo interdisciplinario.', 
+  experiencia:'Andrea-coordinadora de este proyecto, es psicóloga, egresada de la Universidad Argentina John F. Kennedy. Ha trabajado desde hace más de 25 años  en consultorios externos y coordinando grupos y programas en: Centros de Salud de Atención Primaria, en el Hospital General y en la Guardia de Salud Mental, en Urgencias e Internación, lo cual le ha dado una amplia experiencia en el abordaje y manejo de todo tipo de complejidades de la clínica. También ejerce la profesión en el ámbito privado. Ha sido admisora y coordinadora de servicio en sistema de salud mental de pre pagas. Es miembro de AASAM, Asociación Argentina de Salud Mental, donde participa de los capítulos de Psicosis y Cuerpos Sexualidad y Época. Como docente universitaria, se ha desempeñado en Universidades públicas y privadas, en pasantías de  grado y posgrado: * Clínica de la Urgencia, de la carrera de Psicología de la Universidad de Buenos Aires * Clínica Psicoanalítica del posgrado del Colegio de Psicólogos zona XV. * Residencia de Medicina Gral., en el módulo de  Salud Mental. Aunque,  como docente, prefiere seguir pensándose como aprendiz. En este día y cada día.', 
+  img:'../IMG/FotoAndrea.png' },
   
-  const coordinador1 = new coordinadores(1, 'Andrea Méndez', 'Psicologa', 1000, '../IMG/Foto Andrea.png');
-  
-  const coordinador2 = new coordinadores(2, 'Juan Pablo Tonna', 'Medico y psiquiatra', 1200, '../IMG/Foto Andrea.png');
+  ]
 
-  // ARRAY COORDINADORES
+  console.log(coordinadores)
   
-  let arrayCoorinadores = [coordinador1,coordinador2];
-  
-  
-
-  // Objeto Equipo
+// Objeto Equipo
 
 /*  class equipo {
     constructor(id, nombre, profesión, experiencia, imagen) {
