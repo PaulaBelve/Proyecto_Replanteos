@@ -543,7 +543,7 @@ header label {
     }
 }
 
-.cardEquipo {
+#cardEquipo {
 
     width: 100%;
     right: 100%;
@@ -664,7 +664,7 @@ header label {
 }
 
 
-.boxEquipo__boton {
+.estilos_btnEquipo {
 
     /* Agregar margin total*/
 
