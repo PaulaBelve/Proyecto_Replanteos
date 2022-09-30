@@ -787,6 +787,15 @@ header label {
 
 }
 
+@media screen and (max-width: 480px) {
+
+    .boxPrestaciones__info {
+
+      font-size: 0.9rem;
+
+    }
+}
+
 /*.boxPrestaciones__text {
     display: none } */
 
@@ -795,9 +804,6 @@ header label {
 
     color: #837e68;
     font-size: 1.2em;
-
-
-
 
 
 }
@@ -844,6 +850,18 @@ header label {
     margin-left: 43rem;
 }
 
+@media screen and (max-width: 480px) {
+
+    .imgHojaPrestaciones {
+
+        width: 300px;
+        height: 300px;
+        padding: 1.5rem;
+        margin-left: 5rem;
+
+    }
+}
+
 .textoHojaPrestaciones {
 
     text-align: center;
@@ -852,6 +870,15 @@ header label {
     font-size: 1.7rem;
     margin: 2rem 8rem 4rem 8rem;
     
+}
+
+@media screen and (max-width: 480px) {
+
+    .textoHojaPrestaciones {
+
+        margin: 2rem 8rem 2rem 8rem;
+
+    }
 }
 
 .liAsesoramiento {
@@ -911,8 +938,6 @@ header label {
 
 
 .estilosAdmisiones {
-
-
 
     margin-left: 10rem;
     margin-top: 2rem;

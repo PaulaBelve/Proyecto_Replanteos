@@ -52,20 +52,14 @@ Swal.fire ({
     width: `50%`,
     title: `${cordi.nombre}`,
 
-    html: `<span class="textoSweet"><p><b>
+    html: `<span class="textoSweet"><p><b>${cordi.presentacion}</b></p>
+    
+    <p>${cordi.estudios}</p>
+    <p>${cordi.experiencia}</p>
+    <p>${cordi.docencia}</p>
    
-    Andrea - coordinadora de este proyecto, es psicóloga, egresada de la Universidad Argentina John F. Kennedy</b></p>
     
-    <p>Ha trabajado desde hace más de 25 años  en consultorios externos y coordinando grupos y programas en:</p>
-    <p>Centros de Salud de Atención Primaria, en el Hospital General y en la Guardia de Salud Mental, en Urgencias e Internación, lo cual le ha dado una amplia experiencia en el abordaje y manejo de todo tipo de complejidades de la clínica.</p>
-    <p>También ejerce la profesión en el ámbito privado. Ha sido admisora y coordinadora de servicio en sistema de salud mental de pre pagas. </p>
-    <p>Es miembro de AASAM, Asociación Argentina de Salud Mental, donde participa de los capítulos de Psicosis y Cuerpos Sexualidad y Época.</p>
-    <p>Como docente universitaria, se ha desempeñado en Universidades públicas y privadas, en pasantías de  grado y posgrado:</p>
-    <p>* Clínica de la Urgencia, de la carrera de Psicología de la Universidad de Buenos Aires</p> 
-    <p>* Clínica Psicoanalítica del posgrado del Colegio de Psicólogos zona XV</p> 
-    <p>* Residencia de Medicina Gral., en el módulo de  Salud Mental.</p>
-    
-    <p><b>Aunque,  como docente, prefiere seguir pensándose como aprendiz. En este día y cada día.</b></p></span>
+    <p><b>${cordi.final}</b></p></span>
     
     ` ,
     imageUrl: `${cordi.img}`,
@@ -139,20 +133,20 @@ function modalEquipo (equi) {
 
   Swal.fire ({
      
-      width: `50%`,
+      width: `40%`,
       title: `${equi.nombre}`,
-      text: `${equi.CV}`,
   
-      html: `<span class="textoSweet"><p>${equi.subtitulo}
+      html: `<span class="textoSweet"><p><b>${equi.subtitulo}
      
-      </p></span>
+      </b></p>
+      <p>${equi.estudios}</p>
+      <p>${equi.CV}</p></span>
       
       ` ,
       imageUrl: `${equi.img}`,
       customClass: {title:`tituloCoordinadores`},
-      padding: `2rem 2rem` ,
+      padding: `1rem 1rem` ,
       imageWidth: 150,
-      
       imageAlt:  `Custom image` ,
       showConfirmButton: false ,
       showCloseButton: true,
