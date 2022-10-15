@@ -27,7 +27,7 @@ const coordinadores = [
     experiencia: 'Como psiquiatra su recorrido profesional atraviesa diversos dispositivos en ámbitos públicos y privados: atención individual y grupal en consultorios externos, guardia y emergencias, internación y su coordinación médica, responsable médico-psiquiatra del departamento legal del hospital Bernardo Houssay,   asistencia en hospital de día y dirección médica de centros ambulatorios, coordinación de equipos interdisciplinarios en internaciones domiciliarias.',
     docencia: 'Como docente se ha desempeñado como ayudante en la universidad Austral, facultad de Medicina de la UBA, en el curso de especialización en psiquiatría del Colegio Médico, zona IV, en la carrera de Musicoterapia de la Universidad Abierta Interamericana.',
     final: 'Aunque,  como docente, prefiere seguir pensándose como aprendiz. En este día y cada día.',
-    img: '../IMG/FotoAndrea.png'
+    img: '../IMG/JUAN.png'
   },
 
 ]

@@ -40,17 +40,14 @@ botonCoordinadores.addEventListener ('click', e => {
 
 }
 
-// EXPERIENCIA CON ID - VER COMO DARLE ESTILO A TODO ESE CHOCLO
-// HACERLO RESPONSIVO
-// MODAL CON CV COORDINADORES
-
 function modalCoordinadores (cordi) {
 
 
 Swal.fire ({
    
-    width: `50%`,
+   // width: `90%`,
     title: `${cordi.nombre}`,
+    grow: `column`,
 
     html: `<span class="textoSweet"><p><b>${cordi.presentacion}</b></p>
     
@@ -64,7 +61,7 @@ Swal.fire ({
     ` ,
     imageUrl: `${cordi.img}`,
     customClass: {title:`tituloCoordinadores`},
-    padding: `2rem 2rem` ,
+    padding: `2rem` ,
     imageWidth: 150,
     
     imageAlt:  `Custom image` ,
@@ -79,7 +76,7 @@ Swal.fire ({
 
   mostrarCardsCoordinadores(coordinadores); 
 
-//imageHeigth: 
+
 
 // FUNCIÓN DONDE SE IMPRIMEN LAS CARDS DEL EQUIPO
 
@@ -124,7 +121,6 @@ const mostrarCardsEquipo = (equipo) => {
 
   mostrarCardsEquipo(equipo)
 
-// MODAL CON CV COMPLETO
 
 // MODAL CON CV COORDINADORES
 
@@ -133,8 +129,9 @@ function modalEquipo (equi) {
 
   Swal.fire ({
      
-      width: `40%`,
+     // width: `90%`,
       title: `${equi.nombre}`,
+      grow: `column`,
   
       html: `<span class="textoSweet"><p><b>${equi.subtitulo}
      
@@ -145,7 +142,7 @@ function modalEquipo (equi) {
       ` ,
       imageUrl: `${equi.img}`,
       customClass: {title:`tituloCoordinadores`},
-      padding: `1rem 1rem` ,
+      padding: `2rem` ,
       imageWidth: 150,
       imageAlt:  `Custom image` ,
       showConfirmButton: false ,

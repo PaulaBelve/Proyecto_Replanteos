@@ -343,14 +343,122 @@ header label {
     flex-direction: row;
 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     font-size: 3em;
     font-family: 'Neucha', cursive;
     color: #56566d;
+    margin-left: 20rem;
 }
 
 
+@media screen and (max-width: 480px) {
+
+    .valores {
+
+        flex-direction: column;
+        text-align: center;
+        font-size: 2em;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+.textoValores {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.5em;
+    font-family: 'Neucha', cursive;
+    color: #56566d;
+  
+    
+    margin-right: 20rem; 
+}
+
+@media screen and (max-width: 480px) {
+
+    .textoValores {
+
+        display: none;
+
+        
+    }
+}
+
+.parrafosValorResponsivo {
+
+    display: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .parrafosValorResponsivo {
+
+        display: block;
+
+        flex-direction: column;
+        text-align: justify;
+        
+        font-size: 0.8em;
+        margin: 0 2rem 0 2rem ;
+      
+    }
+}
+
+.parrafosValores1 {
+
+    margin: 0 10rem 0 10rem ;
+    padding: 1%;
+    text-align: justify;
+    background: hsl(10, 27%, 91%, 0.8);
+}
+
+.parrafosValores2 {
+
+    margin: 0 12rem 0 1rem ;
+    padding: 1%;
+    text-align: justify;
+    background: hsl(10, 27%, 91%, 0.8);
+    
+}
+
+.parrafosValores3 {
+
+    
+    padding: 1%;
+    
+    text-align: justify;
+    background: hsl(10, 27%, 91%, 0.8);
+    width: 100%;
+    margin: 0 5rem 0 1rem ;
+    
+  
+    
+    
+}
+
+.linkValores {
+
+    margin-top: 0.1rem;
+}
+
+.bannerRedimensionado {
+
+    background-image: url("../IMG/fondoacuarelasinvertido-cortado.jpg");
+    margin-top: 1.5rem;
+    
+    
+}
 
 .borderValores {
 
@@ -396,11 +504,7 @@ header label {
 
 }
 
-.bannerRedimensionado {
 
-
-    margin-top: 5rem;
-}
 
 /* NOSOTROS */
 
@@ -677,6 +781,27 @@ header label {
 }
 
 /* PRESTACIONES */
+
+/* PARRAFO INTRODUCTORIO PRESTACIONES */
+
+.parrafoPrestaciones {
+
+
+
+    font-size: 1.8em;
+
+    text-align: center;
+
+    font-family: 'Jaldi', sans-serif;
+
+    margin-top: 2rem;
+
+    padding: 1rem;
+
+    color: #837471;
+
+
+}
 
 /* CARDS */
 
