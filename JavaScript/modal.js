@@ -48,6 +48,11 @@ Swal.fire ({
    // width: `90%`,
     title: `${cordi.nombre}`,
     grow: `column`,
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {  popup: 'animate__animated animate__fadeOutUp'
+  },
 
     html: `<span class="textoSweet"><p><b>${cordi.presentacion}</b></p>
     
@@ -132,6 +137,12 @@ function modalEquipo (equi) {
      // width: `90%`,
       title: `${equi.nombre}`,
       grow: `column`,
+      showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+      },
+      hideClass: {  popup: 'animate__animated animate__fadeOutUp'
+    },
+        
   
       html: `<span class="textoSweet"><p><b>${equi.subtitulo}
      
@@ -147,6 +158,8 @@ function modalEquipo (equi) {
       imageAlt:  `Custom image` ,
       showConfirmButton: false ,
       showCloseButton: true,
+    
+    
   
   
   
