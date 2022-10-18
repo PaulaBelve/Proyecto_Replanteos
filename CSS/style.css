@@ -18,6 +18,13 @@ html {
     font-size: 62.5%;
 }
 
+body {
+
+    min-height: 100vh;
+
+}
+
+
 h1 {
 
     text-align: center;
@@ -28,12 +35,10 @@ h1 {
 
 }
 
-/*p {
+a {
 
-    font-size: 1.2em;
-    
-
-} */
+    text-decoration: none;
+}
 
 /*main { 
 
@@ -104,6 +109,7 @@ header {
     align-items: center;
 
     justify-content: space-between;
+    width: 100%;
 
 }
 
@@ -322,7 +328,7 @@ header label {
     .replanteo {
 
         font-size: 4em;
-        margin: 0 0 0 20rem;
+        margin: 0 0 0 15rem;
         text-align: center;
 
     }
@@ -399,7 +405,9 @@ header label {
     font-size: 3em;
     font-family: 'Neucha', cursive;
     color: #56566d;
-    margin-left: 20rem;
+   margin-left: 20%; 
+   
+   
 }
 
 
@@ -410,8 +418,8 @@ header label {
         flex-direction: column;
         text-align: center;
         font-size: 2em;
-        margin-left: 0;
         margin-bottom: 1rem;
+        margin-left: 0;
     }
 }
 
@@ -430,9 +438,8 @@ header label {
     font-family: 'Neucha', cursive;
     color: #56566d;
     background: hsl(10, 27%, 91%, 0.3);
-    width: 85%;
-    margin-bottom: 2rem;
-
+    width: 100%;
+    margin: 0 5rem 2rem 5rem;
 
 }
 
@@ -470,16 +477,16 @@ header label {
 
 .parrafosValores1 {
 
-    margin: 0 10rem 0 10rem;
-    padding: 1%;
+  margin: 0 10rem 0 1rem; 
+     
     text-align: justify;
 
 }
 
 .parrafosValores2 {
 
-    margin: 0 12rem 0 1rem;
-    padding: 1%;
+  margin: 0 10rem 0 1rem; 
+    
     text-align: justify;
 
 
@@ -487,9 +494,10 @@ header label {
 
 .parrafosValores3 {
 
+      margin: 0 10rem 0 1rem; 
     text-align: justify;
 
-    margin: 0 5rem 0 1rem;
+  
 
 }
 
@@ -717,6 +725,7 @@ header label {
     align-items: center;
     margin-top: 2.5rem;
 
+
 }
 
 .boxEquipo {
@@ -873,13 +882,11 @@ header label {
     /*  @include flex (row, space-between, center, 8rem); */
     width: 100%;
     height: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
-
-
-
-    justify-content: space-evenly;
-    /*  align-items: center; */
+   
+  /*  justify-content: space-evenly; */
     margin-top: 4rem;
     font-size: 1.5rem;
 }
@@ -894,7 +901,7 @@ header label {
         margin-top: 1rem;
         margin-bottom: 2rem;
         font-size: 1rem;
-        flex-wrap: nowrap;
+        
     }
 }
 
@@ -904,6 +911,7 @@ header label {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-flow: wrap;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -911,6 +919,7 @@ header label {
 
 
 }
+
 
 @media screen and (max-width: 480px) {
 
@@ -949,7 +958,7 @@ header label {
 
 
     }
-}
+} 
 
 /* HOVER CUANDO PASAN EL MOUSE POR LA IMAGEN - APARECE EL TEXTO Y EL BOTON QUE TE LLEVA A LA INFORMACIÓN COMPLETA */
 
@@ -1011,7 +1020,7 @@ header label {
         margin-top: 11rem;
 
     }
-}
+} 
 
 
 .boxPrestaciones__title {
@@ -1026,8 +1035,8 @@ header label {
         font-size: 1.5em;
 
 
-    }
-}
+    } }
+
 
 /* TEXTO Y BOTON PRESTACIONES QUE APARECEN EN EL HOVER */
 
@@ -1052,24 +1061,21 @@ header label {
 
 /* HOJA PRESTACIONES */
 
-.imgHojaPrestaciones {
+.hojaPrestaciones {
 
-    width: 500px;
-    height: 500px;
-    padding: 2rem;
-    margin-left: 40rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+.imgHojaPrestaciones {
 
-    .imgHojaPrestaciones {
+    width: 40%;
+    height: 40%;
+    padding: 2rem;
+    margin-left: 30%;
 
-        width: 300px;
-        height: 300px;
-        padding: 1.5rem;
-        margin-left: 5rem;
-
-    }
 }
 
 .textoHojaPrestaciones {
@@ -1078,18 +1084,11 @@ header label {
     font-family: 'Jaldi', sans-serif;
     color: #837e68;
     font-size: 1.7rem;
-    margin: 2rem 8rem 4rem 8rem;
+    margin: 2rem 8rem 3rem 8rem;
 
 }
 
-@media screen and (max-width: 480px) {
-
-    .textoHojaPrestaciones {
-
-        margin: 2rem 8rem 2rem 8rem;
-
-    }
-}
+/* LISTA ASESORAMIENTO TERAPEUTICO */
 
 .liAsesoramiento {
 
@@ -1117,8 +1116,6 @@ header label {
 
     align-items: center;
 }
-
-
 
 .infContacto {
 
