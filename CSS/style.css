@@ -109,7 +109,7 @@ header {
     align-items: center;
 
     justify-content: space-between;
-    width: 100%;
+    
 
 }
 
@@ -131,7 +131,7 @@ header {
 
 
         flex-direction: column;
-        margin-right: 28rem;
+        margin-right: 18rem;
 
 
 
