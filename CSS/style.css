@@ -48,7 +48,7 @@ a {
 .contenedor {
 
     width: 100%;
-    max-width: 120rem;
+    /*  max-width: 120rem; */
     display: table;
 
 
@@ -109,7 +109,7 @@ header {
     align-items: center;
 
     justify-content: space-between;
-    
+
 
 }
 
@@ -292,12 +292,14 @@ header label {
 
 .replanteo {
 
+    width: 95%;
     text-align: end;
     font-size: 7em;
     font-family: 'Neucha', cursive;
     Color: #837e68;
     margin-top: 13rem;
     font-weight: 600;
+    margin: 13% 0 0 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -305,7 +307,7 @@ header label {
     .replanteo {
 
 
-        margin: 0 7rem 0 0;
+        /*    margin: 0 7rem 0 0; */
 
         margin-top: 15rem;
 
@@ -317,7 +319,7 @@ header label {
     .replanteo {
 
         font-size: 6em;
-        margin: 5rem 0 0 20rem;
+        margin: 5% 0 0 20%;
         text-align: center;
 
     }
@@ -328,7 +330,7 @@ header label {
     .replanteo {
 
         font-size: 4em;
-        margin: 0 0 0 15rem;
+        margin: 5% 0 0 15%;
         text-align: center;
 
     }
@@ -405,9 +407,9 @@ header label {
     font-size: 3em;
     font-family: 'Neucha', cursive;
     color: #56566d;
-   margin-left: 20%; 
-   
-   
+    margin-left: 20%;
+
+
 }
 
 
@@ -430,7 +432,6 @@ header label {
     display: flex;
 
     flex-direction: row;
-
     align-items: center;
     justify-content: space-between;
 
@@ -439,7 +440,7 @@ header label {
     color: #56566d;
     background: hsl(10, 27%, 91%, 0.3);
     width: 100%;
-    margin: 0 5rem 2rem 5rem;
+    padding: 1%;
 
 }
 
@@ -476,17 +477,16 @@ header label {
 }
 
 .parrafosValores1 {
+    margin: 0 15% 0 3%;
 
-  margin: 0 10rem 0 1rem; 
-     
     text-align: justify;
 
 }
 
 .parrafosValores2 {
 
-  margin: 0 10rem 0 1rem; 
-    
+    margin: 0 12% 0 1%;
+
     text-align: justify;
 
 
@@ -494,22 +494,25 @@ header label {
 
 .parrafosValores3 {
 
-      margin: 0 10rem 0 1rem; 
-    text-align: justify;
+    margin: 0 12% 0 1%;
+    text-align: center;
 
-  
+
 
 }
 
 .linkValores {
 
-    margin-top: 0.1rem;
+    width: 100%;
+
 }
 
 .bannerRedimensionado {
 
     background-image: url("../IMG/fondoacuarelasinvertido-cortado.jpg");
-    margin-top: 1.5rem;
+    /*  margin-top: 1.5rem; */
+    width: 100%;
+    margin-bottom: 1%;
 
 
 }
@@ -885,8 +888,8 @@ header label {
     padding: 20px;
     display: flex;
     flex-direction: row;
-   
-  /*  justify-content: space-evenly; */
+
+    /*  justify-content: space-evenly; */
     margin-top: 4rem;
     font-size: 1.5rem;
 }
@@ -901,7 +904,7 @@ header label {
         margin-top: 1rem;
         margin-bottom: 2rem;
         font-size: 1rem;
-        
+
     }
 }
 
@@ -944,8 +947,8 @@ header label {
 
     .boxPrestaciones__img {
 
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
 
     }
 }
@@ -958,7 +961,7 @@ header label {
 
 
     }
-} 
+}
 
 /* HOVER CUANDO PASAN EL MOUSE POR LA IMAGEN - APARECE EL TEXTO Y EL BOTON QUE TE LLEVA A LA INFORMACIÓN COMPLETA */
 
@@ -992,11 +995,11 @@ header label {
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 16rem;
+    margin-top: 68%;
     background: hsl(10, 27%, 91%, 0.8);
     text-align: center;
     font-size: 1.1em;
-    padding: 2rem;
+    padding: 3%;
     font-family: 'Jaldi', sans-serif;
     color: #7f2855;
 
@@ -1007,8 +1010,8 @@ header label {
 
     .boxPrestaciones__info {
 
-        font-size: 1em;
-        margin-top: 8rem;
+        font-size: 0.7em;
+        /*  margin-top: 8rem; */
     }
 }
 
@@ -1017,10 +1020,10 @@ header label {
     .boxPrestaciones__info {
 
         font-size: 1em;
-        margin-top: 11rem;
+        
 
     }
-} 
+}
 
 
 .boxPrestaciones__title {
@@ -1033,10 +1036,11 @@ header label {
     .boxPrestaciones__title {
 
         font-size: 1.5em;
+        margin-top: 1.5rem;
 
 
-    } }
-
+    }
+}
 
 /* TEXTO Y BOTON PRESTACIONES QUE APARECEN EN EL HOVER */
 
@@ -1103,8 +1107,9 @@ header label {
 .admisiones {
 
     border: solid 2px #837e68;
-    padding: 2%;
+    padding: 1%;
     margin: 2rem;
+
 
 
 }
@@ -1120,7 +1125,7 @@ header label {
 .infContacto {
 
     text-align: justify;
-    margin-left: 10rem;
+    margin-left: 12.5%;
     margin-top: 2rem;
     font-size: 3em;
     font-family: 'Neucha', cursive;
@@ -1133,9 +1138,8 @@ header label {
 
     .infContacto {
 
-        margin-left: 6rem;
-        justify-content: center;
-        font-size: 2.5em;
+
+        font-size: 2em;
 
 
 
@@ -1146,7 +1150,10 @@ header label {
 
 .estilosAdmisiones {
 
-    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     margin-top: 2rem;
     width: 50%;
     text-align: justify;
@@ -1158,12 +1165,8 @@ header label {
 
 
         text-align: center;
-        margin: 2rem 0 0 9rem;
-        width: 100%;
-
-
-
-
+      width: 300px; 
+        margin-top: 2rem;
     }
 }
 
@@ -1179,8 +1182,8 @@ header label {
 }
 
 .admision2 {
+    
     background-color: #e7eed9;
-    /*  margin: 2rem 5rem 0 5rem; */
     margin-top: 2rem;
     font-size: 2em;
     font-family: 'Jaldi', sans-serif;
@@ -1192,7 +1195,6 @@ header label {
 .icono {
 
     margin: 2rem 0 0 1rem;
-
     height: 22px;
     width: 22px;
     color: #837e68;
@@ -1204,6 +1206,7 @@ header label {
 
     background-color: #e7eed9;
     margin-bottom: 2rem;
+    width: 100%;
 
 
 }
@@ -1213,8 +1216,7 @@ header label {
 
     display: flex;
     flex-direction: column;
-    margin-left: 35rem;
-
+    margin-left: 28%;
     align-items: center;
 }
 
@@ -1222,22 +1224,18 @@ header label {
 
     .mt-4 {
 
-        margin-left: 0;
         justify-content: center;
+        
 
-
-
-
-    }
+ }
 }
-
-
 
 .form-label {
 
     font-family: 'Jaldi', sans-serif;
     margin-top: 1rem;
     font-size: 2em;
+   
 }
 
 .form-control {
@@ -1254,7 +1252,8 @@ header label {
 
     .form-control {
 
-        width: 30rem;
+        width: 25rem;
+  
 
     }
 }
