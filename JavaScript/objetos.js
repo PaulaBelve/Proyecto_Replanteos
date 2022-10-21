@@ -39,11 +39,11 @@ console.log(coordinadores)
 const equipo = [
   {
     id: '1',
-    nombre: 'Benjamin Avila',
-    profesion: 'Lic. Benjamin Avila | Psicólogo',
+    nombre: 'Benjamin Silva',
+    profesion: 'Lic. Benjamin Silva | Psicólogo',
     universidad: 'Egresado de la UBA',
     presentacion: 'Tiene un magíster en Psicoanálisis de Adultos, es Psicólogo de Entrelazar, Centro de investigación y tratamiento de la adicción al juego. Es docente de la Facultad de Psicología UBA e  investigador UBACyT. Participante del Departamento de Investigación en Toxicomanías...',
-    subtitulo: 'Benjamin, forma parte del equipo de Replanteo, es Lic. en Psicología y Psiconalista, egresado de la Universidad Nacional de Buenos Aires.',
+    subtitulo: 'Benjamin, forma parte del equipo de Replanteos, es Lic. en Psicología y Psiconalista, egresado de la Universidad Nacional de Buenos Aires.',
     estudios: 'Tiene un magíster en Psicoanálisis de Adultos.',
     CV: 'Es Psicólogo de Entrelazar, Centro de investigación y tratamiento de la adicción al juego. Es docente de la Facultad de Psicología (UBA) e  investigador UBACyT. Docente de la Asociación Argentina de Salud Mental (AASM). Docente de la Universidad del Desarrollo de Chile. Participante del Departamento de Investigación en Toxicomanías y Alcoholismo (TyA), Escuela de Orientación Lacaniana. Miembro y docente del Ateneo de ludopatía y psicoanálisis, Escuela de Orientación Lacaniana.',
     img: '../IMG/FotoBenjamin.png',
@@ -56,7 +56,7 @@ const equipo = [
     profesion: 'Lic. Julieta Aued Santi | Psicóloga ',
     universidad: 'Egresada de la UBA',
     presentacion: 'Realizó la Residencia en Psicología Clínica en el Hospital General de Agudos “Parmenio T. Piñero”, con una formación clínica especializada de orientación psicoanalítica. Se formó como Acompañante Terapéutico en el CPsA (Centro Psicosocial Argentino)...',
-    subtitulo: 'Julieta, forma parte del equipo de Replanteo, es Lic. en Psicólogia, egresada de la Universidad Nacional de Buenos Aires.',
+    subtitulo: 'Julieta, forma parte del equipo de Replanteos, es Lic. en Psicólogia, egresada de la Universidad Nacional de Buenos Aires.',
     estudios: 'Realizó la Residencia en Psicología Clínica en el Hospital General de Agudos “Parmenio T. Piñero”, con una formación clínica especializada de orientación psicoanalítica. Se formó como Acompañante Terapéutico en el CPsA (Centro Psicosocial Argentino).',
     CV: 'Posee amplia experiencia clínica en la atención de pacientes con Trastornos Mentales Severos en diversos dispositivos: internación, consultorios externos, guardia interna y externa, interconsulta y hospital de día. Se desempeña como psicóloga de planta en el Área Programática del Hospital General de Agudos “Parmenio T. Piñero” y como psicóloga de guardia en una Institución Psicoterapéutica dedicada a la recuperación y la inclusión social. También realiza atención clínica de orientación psicoanalítica a adolescentes y adultos, y es docente de posgrado en “Residir en Psico”: escuela y espacio de orientación para jóvenes graduados de Psicología en la preparación integral para rendir el Examen de Residencia de Psicología Clínica.',
     img: '../IMG/JULI.png'
@@ -68,7 +68,7 @@ const equipo = [
     profesion: 'Lic. Rodrigo Olmedo | Musicoterapeuta',
     universidad: 'Egresado de la UAI',
     presentacion: 'Es Musicoterapeuta particular y de la asociación civil terapéutica “La morada de Juan Bautista”. Integrante del comité Organizador de “La Semana de la Improvisación Libre”. Coordinador de espacios grupales de musicoterapia para niños...',
-    subtitulo: 'Rodrigo, forma parte del equipo de Replanteo, es Lic. en Musicoterapia, egresado de la Universidad Abierta Interamericana.',
+    subtitulo: 'Rodrigo, forma parte del equipo de Replanteos, es Lic. en Musicoterapia, egresado de la Universidad Abierta Interamericana.',
     estudios: 'Musicoterapeuta particular y de la asociación civil terapéutica “La morada de Juan Bautista. Integrante del comité Organizador de “La Semana de la Improvisación Libre”',
     CV: ' Se desempeño como docente de Educación Audioperceptiva II y coordinador del proyecto de ensambles musicales de la Universidad Abierta Interamericana. Es coordinador en espacios grupales de musicoterapia para niños en el centro de estimulación temprana “Crecer”. También es coordinador de  talleres de música y teatro comunitario para niños y adolescentes (Asentamiento 8 de mayo José León Suárez, comedor Enhacore, Villa 15) y coordinador de talleres en el Proyecto “Inclusión Social de adolescentes y jóvenes del sur de Buenos Aires a través de la educación no formal” (Crisol proyectos sociales).',
     img: '../IMG/RODRIGO.png',
@@ -81,7 +81,7 @@ const equipo = [
     profesion: 'Lic. Paula Fernandez | Psicóloga ',
     universidad: 'Egresada de la UBA',
     presentacion: 'Psicoanalista ICDEBA. Integra el equipo de adicciones del municipio de Vicente López, donde se desempeña como psicóloga clínica. Formó parte del dispositivo de atención del colegio de psicólogos XV... ',
-    subtitulo: 'Paula, forma parte del equipo de Replanteo, es Lic. en Psicólogia, egresada de la Universidad Nacional de Buenos Aires.',
+    subtitulo: 'Paula, forma parte del equipo de Replanteos, es Lic. en Psicólogia, egresada de la Universidad Nacional de Buenos Aires.',
     estudios: 'Psicoanalista ICDEBA',
     CV: 'Integra el equipo de adicciones del municipio de Vicente López, donde se desempeña como psicóloga clínica. Se desempeña como docente en la cátedra de Anorexia Bulimia y Obesidad en la  UBA. Formó parte del dispositivo de atención del colegio de psicólogos XV. Trabajo en cepia salud mental hospital de día. Trabajo en la guardia de Salud mental del Hospital Houssay. Su experiencia clínica se basa en patologías graves, apostando al trabajo en equipo tanto en el ámbito público como privado. ',
     img: '../IMG/PAU1.png'
