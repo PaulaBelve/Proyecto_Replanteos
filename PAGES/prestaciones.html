@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="../CSS/fontello.css">
   <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+   <!-- Sweet Alert -->
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <title> Replanteos | Prestaciones</title>
 
    <!-- Revisar SEO -->
@@ -88,7 +90,8 @@
           <p class="boxPrestaciones__text"><b>El acompañante terapéutico (AT)</b> constituye una figura de apoyo que trabaja en la línea de promover en el paciente el mayor grado... 
             </p> 
 
-          <b><a href="./hojaprestaciones.html" class="boxPrestaciones__boton"> Leer más >></a></b>
+          <b><a href="./hojaprestaciones.html#acompañanteTerapeutico" class="boxPrestaciones__boton"> Leer más >></a></b>
+         <!-- <a href="/asesoria-nutricional/#celiacos">Leer más</a> -->
 
         </div>
 
@@ -108,7 +111,7 @@
          <h2 class="boxPrestaciones__title"><b> Musicoterapia </b></h2> 
        <p class="boxPrestaciones__text"><b>La música </b>se ofrece como plataforma de despliegue donde se ponen en juego el sufrimiento y las dolencias, ofreciéndonos diversas... </p> 
 
-          <b><a href="./hojaprestaciones.html" class="boxPrestaciones__boton"> Leer más >></a></b>
+          <b><a href="./hojaprestaciones.html#musicoterapia" class="boxPrestaciones__boton"> Leer más >></a></b>
         </div>
       </picture>
       </article>
@@ -133,7 +136,7 @@
               Entrevistas familiares. Asesoramiento sobre obtención certificado unico de discapacidad (CUD), gestión, beneficios y cobertura de obras sociales
             </p> 
 
-          <b><a href="./hojaprestaciones.html" class="boxPrestaciones__boton"> Leer más >></a></b>
+          <b><a href="./hojaprestaciones.html#asesoramientoLegal" class="boxPrestaciones__boton"> Leer más >></a></b>
 
         </div>
       </picture>
@@ -154,7 +157,7 @@
 
             <p class="boxPrestaciones__text"><b>La terapia ocupacional</b> es una disciplina que se ocupa de promover, prevenir y rehabilitar la salud de las personas, mediante el estímulo de su autonomía cotidiana... </p> 
 
-          <b><a href="./hojaprestaciones.html" class="boxPrestaciones__boton"> Leer más >></a></b>
+          <b><a href="./hojaprestaciones.html#terapiaOcupacional" class="boxPrestaciones__boton"> Leer más >></a></b>
 
           
 
@@ -164,6 +167,47 @@
    
       </article>
      
+    </section>
+
+    <!-- SECTION MODALIDAD -->
+
+    <h1>Modalidad</h1>
+
+    <section class="container cardModalidad">
+
+      <article class="boxModalidad">
+
+        <picture class="boxModalidad__img">
+          <img src="../IMG/consultorio.jpg" alt="">
+        </picture>
+  
+        <div class="boxModalidad__info">
+
+          <h2 class="boxModalidad__title">Presencial</h2>
+          <button class="boxModalidad__button" id="botonPresencial">Ver más</button>
+  
+          
+        </div>
+  
+      </article>
+
+      <article class="boxModalidad">
+
+        <picture class="boxModalidad__img">
+
+        <img src="../IMG/online.jpeg" alt="">
+        </picture>
+  
+        <div class="boxModalidad__info">
+          <h2 class="boxModalidad__title">Online</h2>
+          <button class="boxModalidad__button" id="botonOnline">ver más</button>
+  
+          
+        </div>
+  
+      </article>
+
+
     </section>
 
 
@@ -188,6 +232,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+    <script src="../JavaScript/botonModalidad.js"></script>
 
 </body>
 
