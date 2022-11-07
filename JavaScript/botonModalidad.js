@@ -62,6 +62,7 @@ Swal.fire({
     <div class="borderValores"></div>
     <img class="imgPresencial" src="../IMG/consulPrincipal 1.png" alt="">
     <img class="imgPresencial" src="../IMG/Presencial1.jpeg" alt="">
+    <img class="imgPresencial" src="../IMG/Presencial5.jpeg" alt="">
     <img class="imgPresencial" src="../IMG/Presencial2.jpeg" alt="">
     <img class="imgPresencial" src="../IMG/Presencial3.jpeg" alt="">
     <img class="imgPresencial" src="../IMG/Presencial4.jpeg" alt="">

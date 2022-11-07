@@ -303,6 +303,18 @@ header label {
     font-family: 'Neucha', cursive;
 }
 
+@media screen and (max-width: 480px) {
+
+    .banner {
+
+        
+        text-align: center;
+        justify-content: center;
+        
+
+    }
+}
+
 .replanteo {
 
 
@@ -347,10 +359,21 @@ header label {
 
 .subReplanteo {
 
-    /* text-align: end; */
+   
 
     font-size: 3em;
 
+}
+
+@media screen and (max-width: 480px) {
+
+    .subReplanteo {
+
+        font-size: 2em;
+        margin-left: 35px;
+        
+
+    }
 }
 
 /* MAIN */
@@ -697,7 +720,7 @@ header label {
     text-align: center;
     margin-top: 0.1rem;
     font-family: 'Jaldi', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-weight: 600;
     color: #837e68;
 }
@@ -705,7 +728,7 @@ header label {
 .boxCoordinadores__text {
     margin: 2rem 5rem 2rem 5rem;
     color: #837e68;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .estilos_btnModal {
@@ -1222,7 +1245,7 @@ header label {
 
     .imgHojaPrestaciones {
 
-        margin-left: 10rem;
+        margin-left: 12.5rem;
 
 
     }
