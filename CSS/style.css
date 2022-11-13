@@ -307,10 +307,10 @@ header label {
 
     .banner {
 
-        
+
         text-align: center;
         justify-content: center;
-        
+
 
     }
 }
@@ -319,9 +319,6 @@ header label {
 
 
     font-size: 7em;
-
-
-    /* margin-top: 10%; */
 
 
 }
@@ -359,7 +356,7 @@ header label {
 
 .subReplanteo {
 
-   
+
 
     font-size: 3em;
 
@@ -371,7 +368,7 @@ header label {
 
         font-size: 2em;
         margin-left: 35px;
-        
+
 
     }
 }
@@ -476,20 +473,21 @@ header label {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 3%;
-   
-   
-   gap: 6rem; 
+    /*  margin-left: 3%; */
+
+
+    gap: 6rem;
     padding: 1%;
 
     font-size: 1.8em;
     font-family: 'Neucha', cursive;
     color: #56566d;
- /*   background-color: hsl(10, 27%, 91%, 0.8);*/
+
     width: 100%;
-    
-    
-   
+    background-image: url("../IMG/fondoacuarelas\ invertido.jpg");
+
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -525,15 +523,15 @@ header label {
 }
 
 .parrafosValores1 {
-   
-    margin-left: 6%; 
+
+    margin-left: 6%;
     text-align: justify;
 
 }
 
 .parrafosValores2 {
 
- 
+
 
     text-align: justify;
 
@@ -542,9 +540,8 @@ header label {
 
 
 .listaValores {
-    
-    margin-right: 15%;
-    
+
+    margin-right: 5%;
     text-align: center;
     margin-bottom: 1rem;
     background-color: hsl(10, 27%, 91%, 0.8);
@@ -555,9 +552,7 @@ header label {
 
 .bannerRedimensionado {
 
-    background-image: url("../IMG/fondoacuarelasinvertido-cortado.jpg");
- /*   width: 100%; */
-   
+    width: 100%;
 }
 
 .borderValores {
@@ -640,7 +635,7 @@ header label {
 }
 
 .boxCoordinadores {
-    
+
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1168,7 +1163,7 @@ header label {
     box-shadow: 0 0 5px;
     margin-top: 3rem;
     margin-bottom: 3rem;
- 
+
 }
 
 .boxModalidad__img {
