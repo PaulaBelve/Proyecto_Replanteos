@@ -401,8 +401,6 @@ header label {
 
 .textoReplanteo {
 
-
-
     font-size: 1.8em;
 
     text-align: center;
@@ -453,6 +451,7 @@ header label {
     margin-left: 20%;
 
 
+
 }
 
 
@@ -476,15 +475,21 @@ header label {
 
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-
-    font-size: 1.5em;
-    font-family: 'Neucha', cursive;
-    color: #56566d;
-    background: hsl(10, 27%, 91%, 0.3);
-    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 3%;
+   
+   
+   gap: 6rem; 
     padding: 1%;
 
+    font-size: 1.8em;
+    font-family: 'Neucha', cursive;
+    color: #56566d;
+ /*   background-color: hsl(10, 27%, 91%, 0.8);*/
+    width: 100%;
+    
+    
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -520,44 +525,39 @@ header label {
 }
 
 .parrafosValores1 {
-    margin: 0 15% 0 3%;
-
+   
+    margin-left: 6%; 
     text-align: justify;
 
 }
 
 .parrafosValores2 {
 
-    margin: 0 12% 0 1%;
+ 
 
     text-align: justify;
 
 
 }
 
-.parrafosValores3 {
 
-    margin: 0 12% 0 1%;
+.listaValores {
+    
+    margin-right: 15%;
+    
     text-align: center;
-
+    margin-bottom: 1rem;
+    background-color: hsl(10, 27%, 91%, 0.8);
 
 
 }
 
-.linkValores {
-
-    width: 100%;
-
-}
 
 .bannerRedimensionado {
 
     background-image: url("../IMG/fondoacuarelasinvertido-cortado.jpg");
-    /*  margin-top: 1.5rem; */
-    width: 100%;
-    margin-bottom: 1%;
-
-
+ /*   width: 100%; */
+   
 }
 
 .borderValores {
@@ -1165,12 +1165,10 @@ header label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 0 2px;
+    box-shadow: 0 0 5px;
     margin-top: 3rem;
     margin-bottom: 3rem;
-
-
-
+ 
 }
 
 .boxModalidad__img {
@@ -1179,6 +1177,16 @@ header label {
 
 
 
+}
+
+@media screen and (max-width: 480px) {
+
+    .boxModalidad__img {
+
+        width: 320px;
+
+
+    }
 }
 
 .boxModalidad__info {
@@ -1245,7 +1253,7 @@ header label {
 
     .imgHojaPrestaciones {
 
-        margin-left: 12.5rem;
+        margin-left: 10rem;
 
 
     }
