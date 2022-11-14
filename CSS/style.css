@@ -110,6 +110,8 @@ header {
 
     justify-content: space-between;
 
+    width: 100%;
+
 
 }
 
@@ -131,7 +133,9 @@ header {
 
 
         flex-direction: column;
-        margin-right: 18rem;
+        justify-content: flex-start;
+        width: 15rem;
+     
 
 
 
@@ -154,6 +158,7 @@ header label {
         color: #7f2855;
         background-color: hsl(10, 27%, 91%);
         margin-top: 1rem;
+       
 
     }
 }
@@ -473,9 +478,7 @@ header label {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    /*  margin-left: 3%; */
-
-
+    margin-left: 6%; 
     gap: 6rem;
     padding: 1%;
 
@@ -526,7 +529,7 @@ header label {
 
     margin-left: 6%;
     text-align: justify;
-
+    background-color: hsl(10, 27%, 91%, 0.8);
 }
 
 .parrafosValores2 {
@@ -534,6 +537,7 @@ header label {
 
 
     text-align: justify;
+    background-color: hsl(10, 27%, 91%, 0.8);
 
 
 }
@@ -545,6 +549,7 @@ header label {
     text-align: center;
     margin-bottom: 1rem;
     background-color: hsl(10, 27%, 91%, 0.8);
+    width: 100%;
 
 
 }
@@ -640,6 +645,7 @@ header label {
     flex-direction: column;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.829);
+    width: 100%;
 
 
 }
@@ -681,7 +687,7 @@ header label {
 
     text-align: center;
     font-family: 'Jaldi', sans-serif;
-    margin: 0rem 10rem 1rem 10rem;
+    margin: 0rem 10rem 2rem 10rem;
 
 }
 
@@ -733,6 +739,7 @@ header label {
     font-size: 1.5em;
     text-decoration: none;
     cursor: pointer;
+    
 
 }
 
@@ -783,6 +790,7 @@ header label {
     justify-content: center;
     border-bottom: solid 1px #837e68;
     margin: 1rem 20rem 0rem 20rem;
+    width: 60%;
 
 }
 
@@ -806,9 +814,9 @@ header label {
 
     .boxEquipo__img {
 
-        width: 100px;
-        height: 100px;
-        margin: 2rem 10rem 0 10rem;
+       width: 100px;
+        height: 100px; 
+        margin: 2rem 0 0 8rem;
     }
 }
 
@@ -817,7 +825,7 @@ header label {
     text-align: center;
     font-family: 'Jaldi', sans-serif;
     color: #837e68;
-    margin: 1rem 5rem 5rem 5rem;
+    margin: 5rem  5rem 2rem;
 
 }
 
