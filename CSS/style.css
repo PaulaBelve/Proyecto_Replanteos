@@ -652,8 +652,7 @@ header label {
 
 .boxCoordinadores__img {
 
-    width: 300px;
-    height: 300px;
+    width: 50%;
     margin: 2rem 15rem 0rem 15rem;
 }
 
@@ -676,7 +675,8 @@ header label {
 
         width: 125px;
         height: 125px;
-        margin: 2rem 12rem 0 12rem;
+        margin-left: 13rem;
+     
 
 
     }
@@ -816,7 +816,7 @@ header label {
 
        width: 100px;
         height: 100px; 
-        margin: 2rem 0 0 8rem;
+        margin: 2rem 0 0 6rem;
     }
 }
 
@@ -825,7 +825,7 @@ header label {
     text-align: center;
     font-family: 'Jaldi', sans-serif;
     color: #837e68;
-    margin: 5rem  5rem 2rem;
+    margin: 5rem 0rem 5rem 0rem;
 
 }
 
