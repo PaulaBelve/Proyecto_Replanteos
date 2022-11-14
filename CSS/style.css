@@ -451,6 +451,7 @@ header label {
     font-family: 'Neucha', cursive;
     color: #56566d;
     margin-left: 20%;
+    
 
 
 
@@ -485,10 +486,9 @@ header label {
     font-size: 1.8em;
     font-family: 'Neucha', cursive;
     color: #56566d;
-
     width: 100%;
     background-image: url("../IMG/fondoacuarelas\ invertido.jpg");
-
+    height: 400px;
 
 
 }
