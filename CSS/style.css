@@ -1156,6 +1156,7 @@ header label {
     .cardModalidad {
 
         flex-direction: column;
+        
 
 
     }
@@ -1186,7 +1187,7 @@ header label {
 
     .boxModalidad__img {
 
-        width: 320px;
+        width: 390px;
 
 
     }
