@@ -1294,16 +1294,17 @@ header label {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     align-items: center;
 }
 
 .infContacto {
 
-    text-align: justify;
-    margin-left: 10%;
+    text-align: center;
+  /*  margin-left: 10%; */
     margin-top: 2rem;
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-family: poppins;
     Color: #837e68;
 
@@ -1329,9 +1330,9 @@ header label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     margin-top: 2rem;
-    width: 50%;
+    width: 100%;
     text-align: justify;
 }
 
@@ -1341,7 +1342,7 @@ header label {
 
 
         text-align: center;
-        width: 300px;
+       /* width: 300px; */
         margin-top: 2rem;
     }
 }
@@ -1352,8 +1353,8 @@ header label {
 
     font-size: 2em;
     font-family: 'Jaldi', sans-serif;
-    width: 60%;
-    height: 50%;
+    width: 40%;
+    height: 60%;
     text-align: center;
 }
 
@@ -1363,8 +1364,8 @@ header label {
     margin-top: 2rem;
     font-size: 2em;
     font-family: 'Jaldi', sans-serif;
-    width: 60%;
-    height: 50%;
+    width: 40%;
+    height: 60%;
     text-align: center;
 }
 
@@ -1378,10 +1379,10 @@ header label {
 
 /* FORMULARIO */
 
-.tituloContactanos{
+/*.tituloContactanos{
 
     margin-left: 4%;
-}
+}*/
 
 .contacto {
 
@@ -1397,11 +1398,11 @@ header label {
 
     display: flex;
     flex-direction: column;
-    margin-left: 28%;
+  /*  margin-left: 28%; */
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 
     .mt-4 {
 
@@ -1410,7 +1411,7 @@ header label {
 
 
     }
-}
+} */
 
 .form-label {
 
