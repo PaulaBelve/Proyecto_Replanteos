@@ -1358,6 +1358,17 @@ header label {
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+
+    .admision1 {
+
+
+        width: 200px; 
+        height: 100px ;
+        
+    }
+}
+
 .admision2 {
 
     background-color: #e7eed9;
@@ -1367,6 +1378,17 @@ header label {
     width: 40%;
     height: 60%;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .admision2 {
+
+
+        width: 200px; 
+        height: 100px ;
+        
+    }
 }
 
 .icono {
