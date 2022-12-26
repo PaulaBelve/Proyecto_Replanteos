@@ -521,6 +521,7 @@ header label {
 
         flex-direction: column;
         text-align: justify;
+        font-family: poppins;
 
         font-size: 0.8em;
         margin: 0 2rem 0 2rem;
