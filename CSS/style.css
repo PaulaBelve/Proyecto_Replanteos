@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     margin-top: 2.5rem;
     font-size: 3.5em;
-    font-family: 'Neucha', cursive;
+    font-family: poppins ;
     Color: #837e68;
 
 }
@@ -302,11 +302,11 @@ header label {
     flex-direction: column;
     text-align: end;
     justify-content: end;
-    width: 95%;
+    width: 93%;
     margin-top: 10%;
     font-weight: 600;
     Color: #837e68;
-    font-family: 'Neucha', cursive;
+    font-family: poppins;
 }
 
 @media screen and (max-width: 480px) {
@@ -364,7 +364,8 @@ header label {
 
 
 
-    font-size: 3em;
+    font-size: 2.5em;
+    margin-left: 78%;
 
 }
 
@@ -449,7 +450,7 @@ header label {
     justify-content: space-between;
 
     font-size: 3em;
-    font-family: 'Neucha', cursive;
+    font-family: poppins;
     color: #56566d;
     margin-left: 20%;
     
@@ -480,12 +481,11 @@ header label {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 6%; 
-    gap: 6rem;
+    margin-left: 8%; 
+    gap: 6%;
     padding: 1%;
-
-    font-size: 1.8em;
-    font-family: 'Neucha', cursive;
+    font-size: 1.7em;
+    font-family: 'Jaldi', sans-serif ;
     color: #56566d;
     width: 100%;
     background-image: url("../IMG/fondoacuarelas\ invertido.jpg");
@@ -499,6 +499,8 @@ header label {
     .textoValores {
 
         display: none;
+       
+
 
 
     }
@@ -546,11 +548,12 @@ header label {
 
 .listaValores {
 
-    margin-right: 5%;
-    text-align: center;
-    margin-bottom: 1rem;
+    margin-right: 4%;
+    text-align: justify;
+   /* margin-bottom: 1rem; */
     background-color: hsl(10, 27%, 91%, 0.8);
-    width: 100%;
+   width: 10% ;
+    
 
 
 }
@@ -1298,10 +1301,10 @@ header label {
 .infContacto {
 
     text-align: justify;
-    margin-left: 12.5%;
+    margin-left: 10%;
     margin-top: 2rem;
-    font-size: 3em;
-    font-family: 'Neucha', cursive;
+    font-size: 2.5em;
+    font-family: poppins;
     Color: #837e68;
 
 
@@ -1349,8 +1352,8 @@ header label {
 
     font-size: 2em;
     font-family: 'Jaldi', sans-serif;
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: 50%;
     text-align: center;
 }
 
@@ -1360,8 +1363,8 @@ header label {
     margin-top: 2rem;
     font-size: 2em;
     font-family: 'Jaldi', sans-serif;
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: 50%;
     text-align: center;
 }
 
@@ -1374,6 +1377,11 @@ header label {
 }
 
 /* FORMULARIO */
+
+.tituloContactanos{
+
+    margin-left: 4%;
+}
 
 .contacto {
 
