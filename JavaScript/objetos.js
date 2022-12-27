@@ -89,14 +89,14 @@ const equipo = [
 
   {
     id: '5',
-    nombre: 'Raquel Maggi',
-    profesion: 'Lic. Raquel Maggi | Psicoanalista ',
+    nombre: 'Micaela Bleicher',
+    profesion: 'Lic. Micaela Bleicher | Psicóloga ',
     universidad: 'Egresada de la UBA',
-    presentacion: 'Realizó su residencia clínica en el Hospital Municipal de San Isidro “Dr. M. Posse”. Se especializó como acompañante terapéutico/Centro de salud mental 3 Dr. A. Ameghino. Coordinadora de talleres del Centro de día...',
-    subtitulo: 'Raquel, forma parte del equipo de Replanteos, es Lic. en Psicología, egresada de la Universidad Nacional de Buenos Aires.',
-    estudios: 'Se formo como Acompañante terapéutico/Centro de Salud Mental n°3 Dr. A. Ameghino (1993), realizó su residencia clínica en el Hospital Municipal de San Isidro “Dr. M. Posse” (1996/2003).',
-    CV: 'Miembro del equipo de Salud mental atención de adultos. Asistencia psicológica en consultorios externos, sala de internación, y guardia. Coordinadora de talleres del Centro de día. Coolaboradora docente en pasantías universitarias (UBA). Miembro del staff de profesionales de Swiss Medical group (2003/2013). Atención psicológica de pacientes adolescentes y adultos en consultorio. Miembro del equipo de admisiones. Miembro del staff de profesionales de Medicus (2008/2014). Atención psicológica en consultorio de pacientes adultos. Miembro del equipo de cuidados paliativos en domicilio. Miembro del staff de profesionales de Osde (2016/a la fecha). Atención en consultorio de pacientes adultos. Práctica privada (1996/a la fecha). Atención de pacientes adolescentes, adultos, y parejas, Consultorio particular en zona norte del GBA, modalidad presencial y virtual.',
-    img: '../IMG/RAQUEL.png'
+    presentacion: 'Licenciada en Psicología, Facultad de Psicología, Universidad de Buenos Aires. Miembro de TRILCE Buenos Aires. Miembro del Programa de Extensión Aportes de la Psicología Evolutiva...',
+    subtitulo: 'Micaela, forma parte del equipo de Replanteos, es Lic. en Psicología, egresada de la Universidad Nacional de Buenos Aires.',
+    estudios: 'Miembro de TRILCE Buenos Aires. Institución del psicoanálisis...',
+    CV: 'Práctica privada en consultorio, atención de pacientes pre-púberes, adolescentes y adultos. Atención clínica psicológica y admisión en el área de consultorios externos de la Clínica Dharma, institución afiliada a la UBA, de pacientes en situación de vulnerabilidad psico-social, violencia intrafamiliar y problemáticas de consumo y adicción. Miembro del equipo de profesionales del Hospital de Día del Hospital General de Niños Dr. Ricardo Gutiérrez: Coordinadora de grupos de pacientes adolescentes con trastornos alimenticios y problemáticas psico-sociales. Planificación y supervisión de talleres, orientación y seguimiento de pacientes y familias. Capacitadora pedagógica en el departamento de admisión de la Escuela Técnica ORT, Coordinación y orientación diagnóstica de los alumnos.  Acompañante terapéutica en Karites Asociación Civil, a Niñas, Niños y Adolescentes en situación de vulnerabilidad social en hogares y hospitales del Gobierno de la ciudad de Buenos Aires; en el marco del Programa del Consejo de los Derechos de Niñas, Niños y Adolescentes. Miembro del Programa de Extensión Aportes de la Psicología Evolutiva al trabajo con niños, niñas y adolescentes en situaciones de riesgo social perteneciente a la Cátedra II de Psicología Evolutiva Niñez, Facultad de Psicología, UBA.',
+    img: '../IMG/Mica5.png'
   },
 
 ]
